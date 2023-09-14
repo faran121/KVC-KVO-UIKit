@@ -43,3 +43,9 @@ class Person: NSObject {
         super.init()
     }
 }
+
+class UnitTest: NSObject {
+    func add(x: Int, y: Int) -> Int {
+        return x + y
+    }
+}
